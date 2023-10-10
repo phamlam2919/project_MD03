@@ -1,0 +1,222 @@
+.container-detail:before {
+    content: "";
+    background: rgba(24, 24, 24, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-detail {
+    padding: 15px 0;
+    background-image: url(https://bizweb.dktcdn.net/100/446/974/files/mlb-viet-nam-c507f7b8-3144-4c8f-8be5-1cf88b0ffb93.png?v=1689748489020);
+    min-height: 304px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.container-detail h1 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.container-detail .breadcrumb {
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    position: relative;
+}
+
+.container-detail .breadcrumb-item:first-child::before {
+    content: " ";
+}
+
+.container-detail .breadcrumb-item::before {
+    content: "/";
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+.detail {
+    display: flex;
+}
+.detail-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.detail-image img {
+    max-width: 90px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.detail1 {
+    border: none !important;
+    max-width: 85%;
+    height: 490px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.detail-pro h1 {
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-right: 45px;
+}
+
+.detail-pro h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #942319;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quantity-controls {
+    display: flex;
+}
+
+.quantity-button {
+    width: 35px;
+    padding: 5px 10px;
+    font-size: 17px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    /* margin: 0 10px; */
+    padding: 5px;
+}
+
+.detail-add,
+.detail-buy {
+    height: 37px;
+    width: 150px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background: #420500;
+    border: initial;
+    color: #fff;
+    border-radius: initial;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.detail-buy {
+    background-color: #942319;
+    border-color: #942319;
+    margin-left: 10px;
+}
+
+.size-guide-box {
+    margin: 15px 0;
+}
+.size-guide-box span {
+    color: #420500;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.table-container {
+    text-align: center;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.custom-table,
+.custom-table th,
+.custom-table td {
+    border: 1px solid #e1e1e1;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.block-title {
+    text-align: center;
+    margin-top: 6%;
+}
+.block-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #420500;
+    letter-spacing: 0.2em;
+    line-height: 48.76px;
+    word-break: break-all;
+    font-family: "montserrat", sans-serif;
+}
+.block-title b {
+    font-size: 15px;
+    line-height: 19.5px;
+    color: #616161;
+    margin-bottom: 35px;
+    font-family: "montserrat", sans-serif;
+}
+
+.block-title1 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 5%;
+    margin-top: 4%;
+}

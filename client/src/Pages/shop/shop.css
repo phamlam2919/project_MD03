@@ -1,0 +1,93 @@
+.container-shop:before {
+    content: "";
+    background: rgba(24, 24, 24, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-shop {
+    padding: 15px 0;
+    background-image: url(https://bizweb.dktcdn.net/100/446/974/files/mlb-viet-nam-c507f7b8-3144-4c8f-8be5-1cf88b0ffb93.png?v=1689748489020);
+    min-height: 304px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.container-shop h1 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.container-shop .breadcrumb {
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    position: relative;
+}
+
+.container-shop .breadcrumb-item:first-child::before {
+    content: " ";
+}
+
+.container-shop .breadcrumb-item::before {
+    content: "/";
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+.form-check1{
+    position: sticky;
+    top: 70px;
+}
+.col-3 h4{
+    font-size: 18px;
+        color: #333;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 10px;
+        cursor: pointer;
+}
+
+.form-check{
+    margin-top: 3%;
+    padding: 0;
+}
+
+.form-check-label{
+    margin-left: 10px;
+}
+.bang-mau1 {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+.bang-mau {
+    width: 29px;
+    height: 29px;
+    background: #333;
+    border-radius: 50%;
+}
+
+
+.form-check2{
+    display: flex;
+    flex-wrap: wrap;
+}

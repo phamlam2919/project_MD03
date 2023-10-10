@@ -1,0 +1,143 @@
+.container-register:before {
+    content: "";
+    background: rgba(24, 24, 24, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-register {
+    padding: 15px 0;
+    background-image: url(https://bizweb.dktcdn.net/100/446/974/files/mlb-viet-nam-c507f7b8-3144-4c8f-8be5-1cf88b0ffb93.png?v=1689748489020);
+    min-height: 304px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.container-register h1 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.container-register .breadcrumb {
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    font-size: 12px;
+    position: relative;
+}
+
+.container-register .breadcrumb-item:first-child::before {
+    content: " ";
+}
+
+.container-register .breadcrumb-item::before {
+    content: "/";
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+
+
+
+.container-register1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.register-form {
+    width: 550px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.login-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-register .login-register1 {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.login-register .login-register1:first-child {
+    border-right: 1px solid #ddd;
+}
+
+/* .login-register p:last-child {
+    border-right: none;
+} */
+.login-register .login-register1:hover {
+    background-color: #f0f0f0;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #420500;
+}
